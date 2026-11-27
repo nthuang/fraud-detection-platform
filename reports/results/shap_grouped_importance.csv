@@ -1,0 +1,13 @@
+feature,mean_absolute_shap
+type,1.5038726
+hour_cos,0.3981828
+amount,0.38942593
+hour_sin,0.3152354
+amount_to_recipient_mean,0.2559026
+recipient_prior_count,0.20338267
+recipient_hours_since_last,0.14222714
+recipient_is_merchant,0.10917986
+log_amount,0.07241864
+recipient_prior_mean,0.053103853
+recipient_prior_total,0.029816458
+recipient_is_new,0.010207518

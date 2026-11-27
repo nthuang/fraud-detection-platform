@@ -10,3 +10,4 @@ jupyter
 ipykernel
 xgboost 
 lightgbm
+shap

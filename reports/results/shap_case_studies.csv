@@ -1,0 +1,6 @@
+case_name,type,amount,isFraud,raw_probability,fraud_probability,risk_tier,prediction_outcome
+High-Value True Positive,TRANSFER,10000000.0,1,0.1787454,0.7837523437439209,Medium Risk,True Positive
+High-Value False Positive,TRANSFER,12175598.95,0,0.019218255,0.17444400050074935,Medium Risk,False Positive
+Highest-Value False Negative,TRANSFER,1468304.35,1,0.015683165,0.14201450937049653,Low Risk,False Negative
+Near-Threshold False Negative,TRANSFER,2205.55,1,0.017699776,0.1606442411664417,Low Risk,False Negative
+Typical True Negative,CASH_IN,65344.65,0,5.670309e-05,0.0002129027869977235,Low Risk,True Negative

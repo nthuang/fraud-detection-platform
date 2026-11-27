@@ -1,0 +1,3 @@
+recipient_status,type_CASH_IN,type_CASH_OUT,type_DEBIT,type_PAYMENT,type_TRANSFER,amount,log_amount,recipient_is_merchant,hour_sin,hour_cos,recipient_prior_count,recipient_prior_total,recipient_prior_mean,recipient_hours_since_last,recipient_is_new,amount_to_recipient_mean
+Existing Recipient,0.06354249,1.1727089,0.0,0.17523848,-0.033687714,1.2536446,0.16717203,0.03457164,0.39223582,0.5685893,-0.15311839,0.023361163,-0.030238457,0.18562014,-0.008205193,-0.103902645
+New Recipient,0.06338992,-0.07739713,0.0,0.20297952,1.0493438,0.95153874,0.09753685,0.043433305,0.3833139,0.56306154,0.28954902,0.13640563,0.18241082,0.27190137,0.009337288,0.61074644

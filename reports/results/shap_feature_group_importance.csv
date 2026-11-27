@@ -1,0 +1,4 @@
+feature_group,number_of_features,mean_absolute_shap
+transaction,4,1.7240508
+behavioral,6,0.5305955
+temporal,2,0.41205004
