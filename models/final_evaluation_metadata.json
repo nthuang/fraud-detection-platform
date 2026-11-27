@@ -1,0 +1,21 @@
+{
+    "model_name": "XGBoost - Shallow - 10% Sample",
+    "calibration_method": "sigmoid_logit",
+    "decision_threshold": 0.16168135726258814,
+    "high_risk_threshold": 0.9279876292913652,
+    "test_transactions": 123580,
+    "test_fraudulent_transactions": 1654,
+    "test_fraud_rate": 0.01338404272536009,
+    "test_average_precision": 0.6745537209756224,
+    "test_roc_auc": 0.9664351983395245,
+    "test_precision": 0.5503462972828982,
+    "test_recall": 0.624546553808948,
+    "test_f1": 0.5851033701500992,
+    "test_fraud_value_captured": 0.9398449727559479,
+    "test_alert_rate": 0.015188541835248422,
+    "hypothetical_estimated_savings": 255678944.36700004,
+    "hypothetical_cost_reduction": 0.9391555163329636,
+    "test_set_evaluated": true,
+    "policy_frozen_before_test": true,
+    "cost_assumptions": "hypothetical"
+}
