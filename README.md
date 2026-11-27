@@ -1,1 +1,1 @@
-source .venv/bin/activate
+# Financial Fraud Detection & Risk Intelligence Platform
