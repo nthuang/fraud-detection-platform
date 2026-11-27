@@ -1,0 +1,3 @@
+model,training_rows,training_time_seconds
+Isolation Forest,95893,0.6051250180025818
+Autoencoder,95893,12.839614784999867

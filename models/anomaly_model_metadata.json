@@ -1,0 +1,69 @@
+{
+    "training_strategy": "normal_only",
+    "normal_sample_rate": 0.02,
+    "training_rows": 95893,
+    "reference_rows": 23974,
+    "feature_columns": [
+        "type",
+        "log_amount",
+        "recipient_is_merchant",
+        "hour_sin",
+        "hour_cos",
+        "recipient_prior_count",
+        "recipient_prior_total",
+        "recipient_prior_mean",
+        "recipient_hours_since_last",
+        "recipient_is_new",
+        "amount_to_recipient_mean"
+    ],
+    "supervised_feature_columns": [
+        "type",
+        "amount",
+        "log_amount",
+        "recipient_is_merchant",
+        "hour_sin",
+        "hour_cos",
+        "recipient_prior_count",
+        "recipient_prior_total",
+        "recipient_prior_mean",
+        "recipient_hours_since_last",
+        "recipient_is_new",
+        "amount_to_recipient_mean"
+    ],
+    "isolation_forest_params": {
+        "n_estimators": 150,
+        "max_samples": 1024,
+        "contamination": "auto",
+        "random_state": 42,
+        "n_jobs": 2
+    },
+    "autoencoder_params": {
+        "hidden_layer_sizes": [
+            32,
+            8,
+            32
+        ],
+        "activation": "relu",
+        "solver": "adam",
+        "learning_rate_init": 0.001,
+        "batch_size": 512,
+        "max_iter": 60,
+        "alpha": 0.0001,
+        "early_stopping": true,
+        "validation_fraction": 0.1,
+        "n_iter_no_change": 8,
+        "random_state": 42
+    },
+    "score_normalization": "training_reference_percentile",
+    "selection_metric": "average_precision",
+    "best_hybrid_model": "XGBoost + Autoencoder (10%)",
+    "best_hybrid_config": {
+        "anomaly_model": "Autoencoder",
+        "anomaly_weight": 0.1
+    },
+    "best_hybrid_average_precision": 0.4924600934849224,
+    "xgboost_average_precision": 0.6080079143620549,
+    "hybrid_outperformed_xgboost": false,
+    "random_state": 42,
+    "test_set_evaluated": false
+}
