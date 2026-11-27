@@ -8,3 +8,5 @@ shap
 streamlit
 jupyter
 ipykernel
+xgboost 
+lightgbm

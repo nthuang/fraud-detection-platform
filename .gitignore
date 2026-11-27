@@ -1,5 +1,92 @@
-data/raw/
-data/processed/
-models/
-.venv/
+# =========================
+# Python
+# =========================
 __pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Virtual Environments
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Raw and Processed Data
+# =========================
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+!data/processed/feature_metadata.json
+
+# =========================
+# Trained Model Artifacts
+# =========================
+models/*.joblib
+models/*.pkl
+models/*.pickle
+models/*.onnx
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
+*.log
+
+# =========================
+# Experiment Tracking
+# =========================
+mlruns/
+mlartifacts/
+wandb/
+optuna.db
+
+# =========================
+# Databases
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+*.duckdb
+*.duckdb.wal
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE Configuration
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Operating System Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml

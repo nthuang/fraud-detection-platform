@@ -1,0 +1,17 @@
+feature,importance,normalized_importance
+recipient_prior_mean,0.13731705,0.13731705
+amount,0.105371445,0.105371445
+amount_to_recipient_mean,0.10490055,0.10490055
+type_TRANSFER,0.10260573,0.10260573
+recipient_prior_total,0.10251947,0.10251947
+recipient_prior_count,0.07766267,0.07766267
+hour_sin,0.05493584,0.05493584
+recipient_hours_since_last,0.05044815,0.05044815
+hour_cos,0.048822727,0.048822727
+recipient_is_merchant,0.0468955,0.0468955
+type_PAYMENT,0.040891547,0.040891547
+log_amount,0.03983712,0.03983712
+recipient_is_new,0.033929825,0.033929825
+type_CASH_OUT,0.031981334,0.031981334
+type_CASH_IN,0.021881027,0.021881027
+type_DEBIT,0.0,0.0

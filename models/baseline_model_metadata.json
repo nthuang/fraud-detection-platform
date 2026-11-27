@@ -1,0 +1,28 @@
+{
+    "model_name": "Logistic Regression",
+    "model_type": "LogisticRegression",
+    "feature_columns": [
+        "type",
+        "amount",
+        "log_amount",
+        "recipient_is_merchant",
+        "hour_sin",
+        "hour_cos",
+        "recipient_prior_count",
+        "recipient_prior_total",
+        "recipient_prior_mean",
+        "recipient_hours_since_last",
+        "recipient_is_new",
+        "amount_to_recipient_mean"
+    ],
+    "class_weight": null,
+    "selection_metric": "average_precision",
+    "validation_average_precision": 0.39436028084373775,
+    "validation_roc_auc": 0.9310000952426588,
+    "decision_threshold": 0.5,
+    "threshold_optimized": false,
+    "negative_sample_rate": 0.05,
+    "training_sample_size": 305142,
+    "random_state": 42,
+    "test_set_evaluated": false
+}

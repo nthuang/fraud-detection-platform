@@ -1,0 +1,44 @@
+{
+    "feature_columns": [
+        "type",
+        "amount",
+        "log_amount",
+        "recipient_is_merchant",
+        "hour_sin",
+        "hour_cos",
+        "recipient_prior_count",
+        "recipient_prior_total",
+        "recipient_prior_mean",
+        "recipient_hours_since_last",
+        "recipient_is_new",
+        "amount_to_recipient_mean"
+    ],
+    "feature_groups": {
+        "transaction": [
+            "type",
+            "amount",
+            "log_amount",
+            "recipient_is_merchant"
+        ],
+        "temporal": [
+            "hour_sin",
+            "hour_cos"
+        ],
+        "behavioral": [
+            "recipient_prior_count",
+            "recipient_prior_total",
+            "recipient_prior_mean",
+            "recipient_hours_since_last",
+            "recipient_is_new",
+            "amount_to_recipient_mean"
+        ]
+    },
+    "target_column": "isFraud",
+    "metadata_columns": [
+        "step",
+        "isFlaggedFraud"
+    ],
+    "train_end_step": 445,
+    "validation_end_step": 594,
+    "historical_feature_policy": "strictly earlier simulation hours"
+}
