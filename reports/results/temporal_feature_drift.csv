@@ -1,0 +1,43 @@
+period,feature,transactions,psi,status,reference_missing_rate,missing_rate,missing_rate_change,missingness_warning
+Calibration,type,68033,0.002127186423674019,Stable,0.0,0.0,0.0,False
+Calibration,amount,68033,0.002189834893350905,Stable,0.0,0.0,0.0,False
+Calibration,log_amount,68033,0.002189834893350905,Stable,0.0,0.0,0.0,False
+Calibration,recipient_is_merchant,68033,0.00020756569439184458,Stable,0.0,0.0,0.0,False
+Calibration,hour_sin,68033,0.799009226967139,Critical,0.0,0.0,0.0,False
+Calibration,hour_cos,68033,0.45958285077443256,Critical,0.0,0.0,0.0,False
+Calibration,recipient_prior_count,68033,0.00034061369404895196,Stable,0.0,0.0,0.0,False
+Calibration,recipient_prior_total,68033,0.0002465263530627884,Stable,0.0,0.0,0.0,False
+Calibration,recipient_prior_mean,68033,0.0004686921848299476,Stable,0.4417379896295371,0.44884100363059104,0.007103014001053953,False
+Calibration,recipient_hours_since_last,68033,0.8420438849410612,Critical,0.4417379896295371,0.44884100363059104,0.007103014001053953,False
+Calibration,recipient_is_new,68033,0.00021151142877285593,Stable,0.0,0.0,0.0,False
+Calibration,amount_to_recipient_mean,68033,0.0015901693801805702,Stable,0.4417379896295371,0.44884100363059104,0.007103014001053953,False
+Calibration,raw_probability,68033,0.14033813255449978,Warning,0.0,0.0,0.0,False
+Calibration,fraud_probability,68033,0.14033813255449978,Warning,0.0,0.0,0.0,False
+Policy reference,type,160070,0.0,Stable,0.0,0.0,0.0,False
+Policy reference,amount,160070,0.0,Stable,0.0,0.0,0.0,False
+Policy reference,log_amount,160070,0.0,Stable,0.0,0.0,0.0,False
+Policy reference,recipient_is_merchant,160070,0.0,Stable,0.0,0.0,0.0,False
+Policy reference,hour_sin,160070,0.0,Stable,0.0,0.0,0.0,False
+Policy reference,hour_cos,160070,0.0,Stable,0.0,0.0,0.0,False
+Policy reference,recipient_prior_count,160070,0.0,Stable,0.0,0.0,0.0,False
+Policy reference,recipient_prior_total,160070,0.0,Stable,0.0,0.0,0.0,False
+Policy reference,recipient_prior_mean,160070,0.0,Stable,0.4417379896295371,0.4417379896295371,0.0,False
+Policy reference,recipient_hours_since_last,160070,0.0,Stable,0.4417379896295371,0.4417379896295371,0.0,False
+Policy reference,recipient_is_new,160070,0.0,Stable,0.0,0.0,0.0,False
+Policy reference,amount_to_recipient_mean,160070,0.0,Stable,0.4417379896295371,0.4417379896295371,0.0,False
+Policy reference,raw_probability,160070,0.0,Stable,0.0,0.0,0.0,False
+Policy reference,fraud_probability,160070,0.0,Stable,0.0,0.0,0.0,False
+Test,type,123580,0.0007180126930862585,Stable,0.0,0.0,0.0,False
+Test,amount,123580,0.0009508304067568825,Stable,0.0,0.0,0.0,False
+Test,log_amount,123580,0.0009508304067568825,Stable,0.0,0.0,0.0,False
+Test,recipient_is_merchant,123580,1.0776115204545901e-05,Stable,0.0,0.0,0.0,False
+Test,hour_sin,123580,0.4712632000824192,Critical,0.0,0.0,0.0,False
+Test,hour_cos,123580,0.04930869969387806,Stable,0.0,0.0,0.0,False
+Test,recipient_prior_count,123580,0.0005506459835360189,Stable,0.0,0.0,0.0,False
+Test,recipient_prior_total,123580,0.0006082037576622684,Stable,0.0,0.0,0.0,False
+Test,recipient_prior_mean,123580,0.0005564402275776406,Stable,0.4417379896295371,0.450137562712413,0.008399573082875922,False
+Test,recipient_hours_since_last,123580,0.7843223411669838,Critical,0.4417379896295371,0.450137562712413,0.008399573082875922,False
+Test,recipient_is_new,123580,0.0002860345877768173,Stable,0.0,0.0,0.0,False
+Test,amount_to_recipient_mean,123580,0.0004251164694719189,Stable,0.4417379896295371,0.450137562712413,0.008399573082875922,False
+Test,raw_probability,123580,0.07400148628563082,Stable,0.0,0.0,0.0,False
+Test,fraud_probability,123580,0.07400148628563082,Stable,0.0,0.0,0.0,False

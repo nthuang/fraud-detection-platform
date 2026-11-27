@@ -1,0 +1,145 @@
+feature,period,bin,count,proportion
+recipient_hours_since_last,Calibration,BELOW_MIN,0,0.0
+recipient_hours_since_last,Calibration,bin_0,2115,0.03108785442358855
+recipient_hours_since_last,Calibration,bin_1,21890,0.3217556185968574
+recipient_hours_since_last,Calibration,bin_2,4431,0.06513015742360326
+recipient_hours_since_last,Calibration,bin_3,2604,0.03827554275131186
+recipient_hours_since_last,Calibration,bin_4,2086,0.030661590698631547
+recipient_hours_since_last,Calibration,bin_5,1080,0.01587464906736437
+recipient_hours_since_last,Calibration,bin_6,936,0.013758029191715785
+recipient_hours_since_last,Calibration,bin_7,808,0.01187658930225038
+recipient_hours_since_last,Calibration,bin_8,731,0.010744785618743844
+recipient_hours_since_last,Calibration,bin_9,816,0.011994179295341967
+recipient_hours_since_last,Calibration,ABOVE_MAX,0,0.0
+recipient_hours_since_last,Calibration,MISSING,30536,0.44884100363059104
+recipient_hours_since_last,Policy reference,BELOW_MIN,0,0.0
+recipient_hours_since_last,Policy reference,bin_0,8843,0.05524458049603299
+recipient_hours_since_last,Policy reference,bin_1,8529,0.053282938714312486
+recipient_hours_since_last,Policy reference,bin_2,8982,0.05611295058411945
+recipient_hours_since_last,Policy reference,bin_3,9167,0.057268694945961145
+recipient_hours_since_last,Policy reference,bin_4,9139,0.057093771474979696
+recipient_hours_since_last,Policy reference,bin_5,8940,0.05585056537764728
+recipient_hours_since_last,Policy reference,bin_6,8355,0.05219591428749922
+recipient_hours_since_last,Policy reference,bin_7,9270,0.05791216342850003
+recipient_hours_since_last,Policy reference,bin_8,8998,0.056212906853251705
+recipient_hours_since_last,Policy reference,bin_9,9138,0.05708752420815893
+recipient_hours_since_last,Policy reference,ABOVE_MAX,0,0.0
+recipient_hours_since_last,Policy reference,MISSING,70709,0.4417379896295371
+recipient_hours_since_last,Test,BELOW_MIN,0,0.0
+recipient_hours_since_last,Test,bin_0,4514,0.03652694610778443
+recipient_hours_since_last,Test,bin_1,8227,0.06657226088363813
+recipient_hours_since_last,Test,bin_2,1962,0.015876355397313482
+recipient_hours_since_last,Test,bin_3,1580,0.01278524033015051
+recipient_hours_since_last,Test,bin_4,1572,0.012720504936073799
+recipient_hours_since_last,Test,bin_5,1243,0.010058261854669041
+recipient_hours_since_last,Test,bin_6,1011,0.008180935426444408
+recipient_hours_since_last,Test,bin_7,4593,0.03716620812429196
+recipient_hours_since_last,Test,bin_8,5484,0.04437611263958569
+recipient_hours_since_last,Test,bin_9,37736,0.3053568538598479
+recipient_hours_since_last,Test,ABOVE_MAX,30,0.0002427577277876679
+recipient_hours_since_last,Test,MISSING,55628,0.450137562712413
+hour_sin,Calibration,BELOW_MIN,0,0.0
+hour_sin,Calibration,bin_0,13946,0.20498875545691062
+hour_sin,Calibration,bin_1,2853,0.04193553128628754
+hour_sin,Calibration,bin_2,3484,0.05121044199138653
+hour_sin,Calibration,bin_3,3505,0.05151911572325195
+hour_sin,Calibration,bin_4,9538,0.14019666926344568
+hour_sin,Calibration,bin_5,4480,0.06585039613128922
+hour_sin,Calibration,bin_6,9688,0.14240148163391295
+hour_sin,Calibration,bin_7,20539,0.3018976085135155
+hour_sin,Calibration,ABOVE_MAX,0,0.0
+hour_sin,Calibration,MISSING,0,0.0
+hour_sin,Policy reference,BELOW_MIN,0,0.0
+hour_sin,Policy reference,bin_0,14918,0.09319672643218592
+hour_sin,Policy reference,bin_1,47055,0.2939651402511401
+hour_sin,Policy reference,bin_2,14650,0.09152245892422066
+hour_sin,Policy reference,bin_3,17782,0.1110888986068595
+hour_sin,Policy reference,bin_4,11404,0.07124383082401449
+hour_sin,Policy reference,bin_5,12885,0.08049603298556882
+hour_sin,Policy reference,bin_6,12378,0.0773286687074405
+hour_sin,Policy reference,bin_7,28998,0.18115824326857
+hour_sin,Policy reference,ABOVE_MAX,0,0.0
+hour_sin,Policy reference,MISSING,0,0.0
+hour_sin,Test,BELOW_MIN,0,0.0
+hour_sin,Test,bin_0,34992,0.2831526136915358
+hour_sin,Test,bin_1,11415,0.09236931542320764
+hour_sin,Test,bin_2,9192,0.07438096779414145
+hour_sin,Test,bin_3,10451,0.0845687004369639
+hour_sin,Test,bin_4,13002,0.10521119922317528
+hour_sin,Test,bin_5,9392,0.07599935264605923
+hour_sin,Test,bin_6,10768,0.0871338404272536
+hour_sin,Test,bin_7,24368,0.19718401035766306
+hour_sin,Test,ABOVE_MAX,0,0.0
+hour_sin,Test,MISSING,0,0.0
+hour_cos,Calibration,BELOW_MIN,0,0.0
+hour_cos,Calibration,bin_0,9226,0.13561065953287374
+hour_cos,Calibration,bin_1,3520,0.05173959696029868
+hour_cos,Calibration,bin_2,11043,0.16231828671380066
+hour_cos,Calibration,bin_3,30,0.00044096247409345464
+hour_cos,Calibration,bin_4,18302,0.2690165066952802
+hour_cos,Calibration,bin_5,17666,0.259668102244499
+hour_cos,Calibration,bin_6,514,0.007555157056134523
+hour_cos,Calibration,bin_7,7732,0.11365072832301971
+hour_cos,Calibration,ABOVE_MAX,0,0.0
+hour_cos,Calibration,MISSING,0,0.0
+hour_cos,Policy reference,BELOW_MIN,0,0.0
+hour_cos,Policy reference,bin_0,11682,0.07298057100018741
+hour_cos,Policy reference,bin_1,12480,0.07796588992315862
+hour_cos,Policy reference,bin_2,18335,0.11454363715874305
+hour_cos,Policy reference,bin_3,6028,0.03765852439557694
+hour_cos,Policy reference,bin_4,29336,0.18326981945398887
+hour_cos,Policy reference,bin_5,50156,0.31333791466233524
+hour_cos,Policy reference,bin_6,13514,0.08442556381583058
+hour_cos,Policy reference,bin_7,18539,0.1158180795901793
+hour_cos,Policy reference,ABOVE_MAX,0,0.0
+hour_cos,Policy reference,MISSING,0,0.0
+hour_cos,Test,BELOW_MIN,0,0.0
+hour_cos,Test,bin_0,10649,0.08617090144036252
+hour_cos,Test,bin_1,7779,0.06294707881534228
+hour_cos,Test,bin_2,15369,0.12436478394562227
+hour_cos,Test,bin_3,5047,0.040839941738145334
+hour_cos,Test,bin_4,21539,0.17429195662728597
+hour_cos,Test,bin_5,45029,0.36437125748502996
+hour_cos,Test,bin_6,4885,0.039529050008091926
+hour_cos,Test,bin_7,13283,0.10748502994011976
+hour_cos,Test,ABOVE_MAX,0,0.0
+hour_cos,Test,MISSING,0,0.0
+amount,Calibration,BELOW_MIN,0,0.0
+amount,Calibration,bin_0,7018,0.1031558214395955
+amount,Calibration,bin_1,6606,0.09709993679537872
+amount,Calibration,bin_2,6686,0.0982758367262946
+amount,Calibration,bin_3,6906,0.10150956153631326
+amount,Calibration,bin_4,6949,0.10214160774918055
+amount,Calibration,bin_5,6571,0.09658548057560301
+amount,Calibration,bin_6,6597,0.09696764805315068
+amount,Calibration,bin_7,6503,0.09558596563432452
+amount,Calibration,bin_8,6581,0.0967324680669675
+amount,Calibration,bin_9,7615,0.11193097467405524
+amount,Calibration,ABOVE_MAX,1,1.4698749136448488e-05
+amount,Calibration,MISSING,0,0.0
+amount,Policy reference,BELOW_MIN,0,0.0
+amount,Policy reference,bin_0,16007,0.1
+amount,Policy reference,bin_1,16007,0.1
+amount,Policy reference,bin_2,16007,0.1
+amount,Policy reference,bin_3,16007,0.1
+amount,Policy reference,bin_4,16007,0.1
+amount,Policy reference,bin_5,16007,0.1
+amount,Policy reference,bin_6,16007,0.1
+amount,Policy reference,bin_7,16007,0.1
+amount,Policy reference,bin_8,16007,0.1
+amount,Policy reference,bin_9,16007,0.1
+amount,Policy reference,ABOVE_MAX,0,0.0
+amount,Policy reference,MISSING,0,0.0
+amount,Test,BELOW_MIN,0,0.0
+amount,Test,bin_0,13114,0.10611749474024923
+amount,Test,bin_1,12690,0.10268651885418352
+amount,Test,bin_2,12625,0.10216054377731025
+amount,Test,bin_3,12295,0.0994902087716459
+amount,Test,bin_4,11688,0.09457841074607541
+amount,Test,bin_5,12293,0.09947402492312672
+amount,Test,bin_6,12226,0.09893186599773426
+amount,Test,bin_7,12076,0.09771807735879592
+amount,Test,bin_8,12201,0.09872956789124454
+amount,Test,bin_9,12368,0.10008091924259589
+amount,Test,ABOVE_MAX,4,3.236769703835572e-05
+amount,Test,MISSING,0,0.0

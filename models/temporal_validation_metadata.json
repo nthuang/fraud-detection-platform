@@ -1,0 +1,22 @@
+{
+    "reference_start_step": 520,
+    "reference_end_step": 594,
+    "test_start_step": 595,
+    "test_end_step": 743,
+    "test_windows": 7,
+    "partial_windows": 1,
+    "low_support_windows": 1,
+    "capacity_violation_windows": 6,
+    "excess_alerts_across_windows": 661,
+    "test_alert_rate": 0.015188541835248422,
+    "test_average_precision": 0.6745537209756224,
+    "test_fraud_value_captured": 0.9398449727559479,
+    "monitoring_alert_count": 44,
+    "shap_sample_size_per_period": 5000,
+    "model_modified": false,
+    "decision_policy_modified": false,
+    "test_performance_reproduced": true,
+    "evaluation_type": "retrospective_monitoring_on_previously_evaluated_test",
+    "queue_simulation_status": "exploratory_not_selected_for_deployment",
+    "financial_assumptions": "hypothetical"
+}

@@ -1,0 +1,15 @@
+period,feature,transactions,psi,status,reference_missing_rate,missing_rate,missing_rate_change,missingness_warning,start_step,end_step,partial_window
+595-618,raw_probability,29943,0.17722198677607906,Warning,0.0,0.0,0.0,False,595,618,False
+595-618,fraud_probability,29943,0.17722198677607906,Warning,0.0,0.0,0.0,False,595,618,False
+619-642,raw_probability,10192,0.13491233699508176,Warning,0.0,0.0,0.0,False,619,642,False
+619-642,fraud_probability,10192,0.13491233699508176,Warning,0.0,0.0,0.0,False,619,642,False
+643-666,raw_probability,13189,0.6676432981194045,Critical,0.0,0.0,0.0,False,643,666,False
+643-666,fraud_probability,13189,0.6676432981194045,Critical,0.0,0.0,0.0,False,643,666,False
+667-690,raw_probability,41489,0.0814919865177148,Stable,0.0,0.0,0.0,False,667,690,False
+667-690,fraud_probability,41489,0.0814919865177148,Stable,0.0,0.0,0.0,False,667,690,False
+691-714,raw_probability,24902,0.363694879518762,Critical,0.0,0.0,0.0,False,691,714,False
+691-714,fraud_probability,24902,0.363694879518762,Critical,0.0,0.0,0.0,False,691,714,False
+715-738,raw_probability,3805,1.1457402167088577,Critical,0.0,0.0,0.0,False,715,738,False
+715-738,fraud_probability,3805,1.1457402167088577,Critical,0.0,0.0,0.0,False,715,738,False
+739-743,raw_probability,60,3.7145062795030395,Insufficient data,0.0,0.0,0.0,False,739,743,True
+739-743,fraud_probability,60,3.7145062795030395,Insufficient data,0.0,0.0,0.0,False,739,743,True
